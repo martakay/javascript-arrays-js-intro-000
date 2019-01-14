@@ -24,5 +24,5 @@ function addElementToEndOfArray(array, elementToAdd) {
 function destructivelyAddElementToEndOfArray(array, elementToAdd) {
   // should alter the original array
   array.shift(element);
-  return array
+  return array;
 }
