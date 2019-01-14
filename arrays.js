@@ -14,5 +14,4 @@ function destructivelyAddElementToBeginningOfArray(array, elementToAdd) {
 //should alter the original array that's passed in
   array.unshift(elementToAdd);
   return array;
-  
 }
