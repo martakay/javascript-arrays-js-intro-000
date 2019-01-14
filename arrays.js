@@ -18,11 +18,11 @@ function destructivelyAddElementToBeginningOfArray(array, elementToAdd) {
 
 function addElementToEndOfArray(array, elementToAdd) {
   // should not alter original array
-  return array = [array, ...elementToAdd]
+  return array = [...array, elementToAdd]
 }
 
 function destructivelyAddElementToEndOfArray(array, elementToAdd) {
   // should alter the original array
-  array.psuh(element);
+  array.push(element);
   return array;
 }
