@@ -35,5 +35,9 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-  array.slice(1);
+  retyrn array.slice(1);
+}
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  return array.pop()
 }
