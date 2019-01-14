@@ -22,7 +22,7 @@ function addElementToEndOfArray(array, elementToAdd) {
 
 function destructivelyAddElementToEndOfArray(array, elementToAdd) {
   // should alter the original array
-  array.push(element);
+  array.push(elementToAdd);
   return array;
 }
 
@@ -40,4 +40,8 @@ function removeElementFromBeginningOfArray(array) {
 
 function destructivelyRemoveElementFromEndOfArray(array) {
   return array.pop();
+}
+
+function removeElementFromEndOfArray(array) {
+  array.slice(0, array.length - 1);
 }
